@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('pages.app.dashboard-siakad', ['type_menu' => '']);
 });
 
+
 Route::get('/login', function () {
     return view('pages.auth.auth-login');
 })->name('login');
